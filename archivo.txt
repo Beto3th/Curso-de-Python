@@ -1,3 +1,3 @@
-Buen Dia
- Hoy es miercoles
- Siempre es una buena ocacion para hacer ejercicio
+Comienzo del cursomiercoles
+Esta linea ha sido incluida desde el exterior 
+io
