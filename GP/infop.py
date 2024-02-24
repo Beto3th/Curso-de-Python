@@ -40,7 +40,7 @@ class ListaPersonas:
             print(p)
 
     def guardarPersonasEnFicheroExterno(self):
-        listaDePersonas=open("ficheroEXterno", "wb")
+        listaDePersonas=open("ficheroExterno", "wb")
         pickle.dump(self.personas, listaDePersonas)
         listaDePersonas.close()
         del(listaDePersonas)
@@ -52,6 +52,6 @@ class ListaPersonas:
 
 
 miLista=ListaPersonas()
-persona=Persona("Vale", "Femenino", 20)
+persona=Persona("Candy", "Femenino", 25)
 miLista.agregarPersonas(persona)
 miLista.mostrarInfoFicheroExterno()
